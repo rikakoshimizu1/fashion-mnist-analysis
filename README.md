@@ -29,6 +29,12 @@ Each image represents one of 10 fashion item categories:
  - Implementation of regulzarization techniques including `dropout`
  - Use of normalization methods like `batch normalization`
 
+## Challenges
+ - Determining the best hyperparameters for the feedforward neural network was inititially difficult without a systematic approach.
+ - Managing model overfitting required experimenting with regularization techniques like `dropout`.
+ - Improving model performance on the Fashion MNIST dataset involved trial and error before applying hyperparameter tuning methods such as `GridSearchCV`.
+ - Balancing training time and accuracy was a challenge when adjusting batch size and number of epochs. 
+
 ## Analysis and Insights
 This assignment highlighted the critical role of **hyperparameter tuning** in optimizing model performance. While it was challenging to intuitively determine the best ways to improve the neural network, applying systematic hyperparameter tuning allowed identification of themost effective parameters to enhance accuracy. The process demonstrated how automated search methods, such as `GridSearchCV`, could be valuable tools for efficiently exploring combinations of hyperparameters. Using these optimized parameters resulted in improved test accuracy and a more robust model overall. 
 
