@@ -10,6 +10,7 @@ To apply deep learning techniques to classify grayscale images of clothing items
 The **Fashion MNIST** dataset contains 70,000 grayscale images of size 28x28 pixels, divided into:
  - Training set: 60,000 images
  - Test set: 10,000 images
+
 Each image represents one of 10 fashion item categories:
  - **0**: T-shirt/top
  - **1**: Trouser
