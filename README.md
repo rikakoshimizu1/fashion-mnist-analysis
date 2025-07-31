@@ -11,7 +11,7 @@ The **Fashion MNIST** dataset contains 70,000 grayscale images of size 28x28 pix
  - Training set: 60,000 images
  - Test set: 10,000 images
 Each image represents one of 10 fashion item categories:
- - **0**:T-shirt/top
+ - **0**: T-shirt/top
  - **1**: Trouser
  - **2**: Pullover
  - **3**: Dress
