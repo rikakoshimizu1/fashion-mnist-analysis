@@ -11,16 +11,16 @@ The **Fashion MNIST** dataset contains 70,000 grayscale images of size 28x28 pix
  - Training set: 60,000 images
  - Test set: 10,000 images
 Each image represents one of 10 fashion item categories:
-**0**:T-shirt/top
-**1**: Trouser
-**2**: Pullover
-**3**: Dress
-**4**: Coat
-**5**: Sandal
-**6**: Shirt
-**7**: Sneaker
-**8**: Bag
-**9**: Ankle Boot
+ - **0**:T-shirt/top
+ - **1**: Trouser
+ - **2**: Pullover
+ - **3**: Dress
+ - **4**: Coat
+ - **5**: Sandal
+ - **6**: Shirt
+ - **7**: Sneaker
+ - **8**: Bag
+ - **9**: Ankle Boot
 
 ## Features
  - Construction of feedforward neural networks with multiple hidden layers
