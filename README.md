@@ -1,17 +1,17 @@
 # Fashion MNIST Feedforward Neural Network
 
 ## Overview
-This project explores the fundamentals of deep learning by designing, training, and evaluating feedforward nueral networks using the **Fashion MNIST** dataset. The goal is to understand how neural networks perform image classification tasks and to experiment with various hyperparameters and regularization methods to improve model accuracy.
+This project explores the fundamentals of **deep learning** by designing, training, and evaluating feedforward nueral networks using the `Fashion MNIST` dataset. The goal is to understand how neural networks perform **image classification** tasks and to experiment with various **hyperparameters and regularization methods** to improve model accuracy.
 
 ## Objective
-To apply deep learning techniques to classify grayscale images of clothing items from the Fashion MNIST dataset. The assignment involves building feedforward neural networks, tuning hyperparameters, implementing regularization and normalization, and analyzing the model's performance. 
+To apply deep learning techniques to classify **grayscale images** of clothing items from the `Fashion MNIST` dataset. The assignment involves building feedforward neural networks, tuning hyperparameters, implementing regularization and normalization, and analyzing the model's performance. 
 
 ## Dataset
 The **Fashion MNIST** dataset contains 70,000 grayscale images of size 28x28 pixels, divided into:
- - Training set: 60,000 images
- - Test set: 10,000 images
+ - Training set: `60,000` images
+ - Test set: `10,000` images
 
-Each image represents one of 10 fashion item categories:
+Each image represents one of **10 fashion item categories**:
  - **0**: T-shirt/top
  - **1**: Trouser
  - **2**: Pullover
@@ -24,10 +24,11 @@ Each image represents one of 10 fashion item categories:
  - **9**: Ankle Boot
 
 ## Features
- - Construction of feedforward neural networks with multiple hidden layers
- - Experimentation with hyperparameters such as learning rate, batch size, and epochs
- - Implementation of regulzarization techniques including `dropout`
- - Use of normalization methods like `batch normalization`
+ - **Model Architecture**: Construction of **feedforward neural networks** with hidden layers and activation functions (`ReLU`, `softmax`).
+ - **Hyperparameter Tuning**: Adjusting **learning rate**, **batch size**, and **epochs** to improve accuracy.
+ - **Regularization**: Applying `dropout` to reduce overfitting.
+ - **Normalization**: Using `batch normalization` to stabilize and accelerate training.
+ - **Visualization**: Displaying class distributions, training/validation accuracy, and prediction results with `matplotlib`. 
 
 ## Challenges
  - Determining the best hyperparameters for the feedforward neural network was inititially difficult without a systematic approach.
