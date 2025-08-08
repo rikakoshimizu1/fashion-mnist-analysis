@@ -1,7 +1,7 @@
 # Fashion MNIST Feedforward Neural Network
 
 ## Overview
-This project explores the fundamentals of **deep learning** by designing, training, and evaluating feedforward nueral networks using the `Fashion MNIST` dataset. The goal is to understand how neural networks perform **image classification** tasks and to experiment with various **hyperparameters and regularization methods** to improve model accuracy.
+This project explores the fundamentals of **deep learning** by designing, training, and evaluating feedforward neural networks using the `Fashion MNIST` dataset. The goal is to understand how neural networks perform **image classification** tasks and to experiment with various **hyperparameters and regularization methods** to improve model accuracy.
 
 ## Objective
 To apply deep learning techniques to classify **grayscale images** of clothing items from the `Fashion MNIST` dataset. The assignment involves building feedforward neural networks, tuning hyperparameters, implementing regularization and normalization, and analyzing the model's performance. 
@@ -31,13 +31,13 @@ Each image represents one of **10 fashion item categories**:
  - **Visualization**: Displaying class distributions, training/validation accuracy, and prediction results with `matplotlib`. 
 
 ## Challenges
- - Determining the best hyperparameters for the feedforward neural network was inititially difficult without a systematic approach.
+ - Determining the best hyperparameters for the feedforward neural network was initially difficult without a systematic approach.
  - Managing model overfitting required experimenting with regularization techniques like `dropout`.
  - Improving model performance on the Fashion MNIST dataset involved trial and error before applying hyperparameter tuning methods such as `GridSearchCV`.
  - Balancing training time and accuracy was a challenge when adjusting batch size and number of epochs. 
 
 ## Analysis and Insights
-This assignment highlighted the critical role of **hyperparameter tuning** in optimizing model performance. While it was challenging to intuitively determine the best ways to improve the neural network, applying systematic hyperparameter tuning allowed identification of themost effective parameters to enhance accuracy. The process demonstrated how automated search methods, such as `GridSearchCV`, could be valuable tools for efficiently exploring combinations of hyperparameters. Using these optimized parameters resulted in improved test accuracy and a more robust model overall. 
+This assignment highlighted the critical role of **hyperparameter tuning** in optimizing model performance. While it was challenging to intuitively determine the best ways to improve the neural network, applying systematic hyperparameter tuning allowed identification of the most effective parameters to enhance accuracy. The process demonstrated how automated search methods, such as `GridSearchCV`, could be valuable tools for efficiently exploring combinations of hyperparameters. Using these optimized parameters resulted in improved test accuracy and a more robust model overall. 
 
 ## About 
 This Jupyter Notebook was completed as part of the **UCSC Silicon Valley Extension Deep Learning and Artificial Intelligence** program.
